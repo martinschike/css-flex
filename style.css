@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #AF7AB3;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+.logo {
+    font-size: large;
+    color: #fff;
+}
+
+.butterfly {
+    max-width: 400px;
+}
+
+.navbar {
+    background-color: #80558C;
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #CBA0AE;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+.header {
+    min-width: 400px;
+    line-height: 1.2;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
+.boxes:nth-child(1) {
+    margin-left: 0;
+}
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #AF7AB3;
+  }
+
+  h1, h2, h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  .btn:hover {
+    background: #413F42;
+    color: #CBA0AE;;
+  }
+
+  .footer {
+    background-color: #80558C;
+    height: 60px;
+  }
+
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+  }
+
+  .social-nav {
+    list-style: none;
+    display: flex;
+  }
+
+  .social-nav li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .social-nav li {
+    margin-left: 12px;
+  }
+
+
+  @media only screen and (max-width: 780px) {
+    .header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+  }
+
+
